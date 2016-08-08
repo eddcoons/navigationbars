@@ -1,0 +1,341 @@
+/*font-family: 'Bungee Shade', cursive;*/
+/*font-family: 'Dancing Script', cursive;*/
+/*font-family: 'Monoton', cursive;*/
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Meddon', cursive;*/
+/*font-family: 'Megrim', cursive;*/
+
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: #8e9eab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2, h3, h4, h5, h6, a, p, li {
+    font-family: Raleway, sans-serif;
+    color: #111315;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.body_placeholder {
+    background: rgba(89,99,107, .5);
+    width: 100%;
+    height: 800px;
+    border-top:5px solid #45535E;
+}
+
+/*Navigation One Styles*/
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation_one h1 {
+    display: inline-block;
+    margin: 0;
+    font-family: 'Bungee Shade', cursive;
+    color: #111315;
+}
+
+.navigation_one .log_in {
+    float: right;
+    display: inline-block;
+    margin-top: 1.5%;
+}
+
+
+.navigation_one li {
+    font-weight: bold;
+    width: 10%;
+    background: rgba(142,158,171,.5);
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    border-right: 1px solid #eef2f3;
+}
+
+.navigation_one li:hover {
+    background: rgba(89,99,107, .5);
+    cursor: pointer;
+}
+
+.navigation_one .active {
+    background: rgba(89,99,107, .5);
+}
+
+/*Navigation Two Styles*/
+
+.navigation_two {
+    margin-top: 150px;
+    position: relative;
+}
+
+.navigation_two ul {
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navigation_two li {
+    flex: 1 0 auto;
+    z-index: 99;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.navigation_two i {
+    visibility: hidden;
+}
+
+.navigation_two .active {
+    color: #45535E;
+}
+
+.navigation_two .active:hover {
+    color: #111315;
+}
+
+.navigation_two .active i {
+    visibility: visible;
+}
+
+.navigation_two li:hover i {
+    visibility: visible;
+    color: #45535E;
+}
+
+.navigation_two li {
+    cursor: pointer;
+}
+
+
+.navigation_two h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #eef2f3;
+    font-size: 5em;
+    margin: 0;
+}
+
+ .logo_circle {
+    width: 250px;
+    height: 250px;
+    background: #45535E;
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 42%;
+    display: inline-block;
+    position: absolute;
+    top: -65px;
+}
+
+.navigation_two .body_placeholder {
+    margin-top: -30px;
+}
+
+/*Navigation Three Styles*/
+
+.navigation_three {
+    margin-top: 150px;
+
+}
+
+.navigation_three header {
+    display: inline-block;
+}
+
+.navigation_three h1 {
+    display: inline-block;
+    margin: 0;
+    font-family: 'Monoton', cursive;
+    font-size: 6em;
+}
+
+.navigation_three nav {
+    margin-bottom: -115px;
+}
+
+.navigation_three ul {
+    justify-content: flex-end;
+}
+
+
+.navigation_three li {
+    flex: 0 1 auto;
+    padding: 30px;
+    background: #eef2f3;
+    border-right: #111315 solid 2px;
+    font-size: 1.2em;
+}
+
+.navigation_three li:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.navigation_three li:nth-last-child(1){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navigation_three li:hover {
+    -webkit-box-shadow: inset 6px 3px 12px 0px rgba(50, 50, 50, 0.68);
+    -moz-box-shadow:    inset 6px 3px 12px 0px rgba(50, 50, 50, 0.68);
+    box-shadow:         inset 6px 3px 12px 0px rgba(50, 50, 50, 0.68);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navigation_three .active {
+    -webkit-box-shadow: inset 6px 3px 12px 0px rgba(50, 50, 50, 0.68);
+    -moz-box-shadow:    inset 6px 3px 12px 0px rgba(50, 50, 50, 0.68);
+    box-shadow:         inset 6px 3px 12px 0px rgba(50, 50, 50, 0.68);
+    font-weight: bold;
+}
+
+
+/*Navigation Four Styles*/
+
+.navigation_four {
+    margin-top: 150px;
+}
+
+.navigation_four nav {
+    background: #eef2f3;
+    width: 55%;
+    margin-left: 20%;
+}
+
+.navigation_four ul {
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation_four li {
+    margin: 30px 30px 10px 30px;
+    cursor: pointer;
+}
+
+.navigation_four h1 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 4em;
+}
+
+.navigation_four .active span{
+    width: 100%;
+    height: 3px;
+    background: #45535E;
+    display: inline-block;
+}
+
+.navigation_four .hover__line {
+    width: 100%;
+    height: 3px;
+    background: #45535E;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.navigation_four li:hover .hover__line {
+    visibility: visible;
+}
+
+/*Navigation Five Styles*/
+
+.navigation_five {
+    margin-top: 150px;
+}
+
+.navigation_five ul {
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.navigation_five li {
+    flex: 1 1 auto;
+    text-align: center;
+    color: #eef2f3;
+    border-right: #8e9eab 5px solid;
+    background: #45535E;
+    padding: 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.navigation_five li:hover {
+    background: rgba(89,99,107, .8);
+}
+
+.navigation_five .logo {
+    font-family: 'Megrim', cursive;
+    margin: 0;
+    padding: 23.5px;
+}
+
+.navigation_five .logo h1 {
+    margin: 0;
+}
+
+.navigation_five .active {
+    background: rgba(89,99,107, .8);
+}
+
+/*Navigation Six Styles*/
+
+.navigation_six {
+    display: flex;
+    margin-top: 150px;
+}
+
+.navigation_six nav {
+    background: #eef2f3;
+    width: 30%;
+    border-top:5px solid #45535E;
+    border-right: 5px solid #45535E;;
+}
+
+.navigation_six ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation_six li {
+    padding: 30px 15px;
+    width: 90%;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.navigation_six li:hover {
+    background: rgba(89,99,107, .3);
+}
+
+.navigation_six h1 {
+    font-family: 'Meddon', cursive;
+}
+
+.navigation_six .active {
+    background: rgba(89,99,107, .3);
+}
